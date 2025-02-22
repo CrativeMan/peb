@@ -28,7 +28,6 @@
             gcc
             clang
             cmake
-
           ];
         };
 
@@ -45,7 +44,6 @@
             mkdir -p $out/bin
             cp build/peb $out/bin/
           '';
-
         };
       }
     );
